@@ -1,0 +1,35 @@
+# Arduino/ESP32 build artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+build/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Compiled libraries
+*.a
+
+# Temporary files
+*.tmp
+*.temp
+
+# Library build folders
+/DerivedData
+/build/
+/lib/
